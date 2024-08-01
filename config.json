@@ -1,0 +1,15 @@
+{
+    "settings": {
+        "Cert": "meshcentralkp.azurewebsites.net",
+        "WANonly": true,
+        "WebRTC": true
+    },
+    "domains": {
+        "": {
+            "title": "My MeshCentral Server",
+            "minify": true,
+            "NewAccounts": true,
+            "userNameIsEmail": true
+        }
+    }
+}
