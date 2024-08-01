@@ -2,7 +2,11 @@
     "settings": {
         "Cert": "meshcentralkp.azurewebsites.net",
         "WANonly": true,
-        "WebRTC": true
+        "WebRTC": true,
+        "Database": {
+            "type": "mysql",
+            "url": "mysql://dolibarr:SHOh(nIBFJy9@dolibarrkpk.mysql.database.azure.com:3306/MeshCentral"
+        }
     },
     "domains": {
         "": {
@@ -11,5 +15,9 @@
             "NewAccounts": true,
             "userNameIsEmail": true
         }
+    },
+    "letsencrypt": {
+        "email": "your-email@domain.com",
+        "names": "meshcentralkp.azurewebsites.net"
     }
 }
